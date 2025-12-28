@@ -1,0 +1,22 @@
+Django==6.0
+# MySQL database driver
+mysqlclient>=2.2.1
+
+# Production server
+gunicorn>=21.0.0
+
+# Static files handling
+whitenoise>=6.5.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# AWS S3 support (for media storage)
+boto3>=1.26.0
+django-storages>=1.14.2
+
+# CORS headers (if needed for APIs)
+django-cors-headers>=4.0.0
+
+# Security
+django-csp>=3.7
